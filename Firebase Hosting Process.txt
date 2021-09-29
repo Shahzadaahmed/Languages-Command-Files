@@ -1,0 +1,45 @@
+Introduction to Firebase...!
+
+1 : Firebase is a real time database. It is a complete a kind of Server.
+If you want to install firebase tools in your system then you need to install node js first from nodejs.org
+
+If you want to check that node js in install in your system them write this command in cmd if they tell you the version
+that means node js is install othervise they will show you that is not a valid command.
+
+node -v
+
+After downloadind node js then open cmd and write this command for installation of firebase-tools in your system.
+npm install -g firebase-tools
+
+For check firebase-tools is install in your system or not then write this command in your system.
+firebase -V
+
+NOTE : -v will tell you the version.
+
+If they tell you the version that means firebase-tools is installed otherwise they will show you that is not a valid
+command.
+
+To login or logout in firebase in cmd. Write these command.
+firebase login
+firebase logout
+
+!...HOSTING PROCESS...!
+
+Commands step by step and their answers.
+
+1 : firebase init
+y
+
+2 : Select hosting by up and down key and press space bar then enter
+
+3 : Use an existing project
+
+4 : Select project then enter
+
+5 : Use public directory
+y
+
+6 : Single page application
+n
+
+7 : firebase deploy

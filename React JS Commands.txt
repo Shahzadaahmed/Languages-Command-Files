@@ -1,0 +1,78 @@
+1 : To check the version of Node JS installed in your system / Laptop.
+node -v
+
+2 : To check the version of npm (Node Package Manager) installed in your system / Laptop.
+npm -v
+
+Note : (CLI) stands for Command Line Interface.
+
+1 : If you want to create react js app in first time in your system then first you need to write
+npm install -g create-react-app
+
+2 : For creating react app using CLI.
+npx create-react-app folder-name
+
+Note : ctrl + Beck Ticks to open the cmd in terminal in VS Code Software.
+
+3 : When your app folder is ready then you need to start/open use
+npm start
+
+4 : For installation of React JS Router
+npm install react-router-dom
+
+Note: Update react-js version # 6:
+npm install react-router@next react-router-dom@next
+Note: If you are using v6 of react router then you also need to install
+npm install history
+
+5 : For installation of Material UI in React JS
+npm install @material-ui/icons
+and
+npm install @material-ui/core
+
+6 : For installation of Bootstrap 4 in React JS
+npm install bootstrap
+
+7 : For installation of Ant Design in React JS
+npm install @ant-design/icons
+and
+npm install antd
+
+8 : For installation of sweet alert in React JS
+npm install sweetalert
+
+9 : For installation of Typing text animation in React JS
+npm install react-typical
+
+10 : For installation of Firebase in React JS
+npm install firebase
+
+11 : For installation of Axios in React JS
+npm install axios
+
+12 : For installation of unlimited random-words in React JS
+npm install random-words
+
+13: For React-JS Animation (react-reveal)
+npm install react-reveal
+
+14: For installation of cookies in React-JS
+npm install js-cookie
+
+Note: (MOST IMPORTANT) If you want to secure your http://localhost:3000/ react app URL to secure URL so before npm start write this command
+set HTTPS=true
+Then: Click advanced and then click unsafe. And now your react app url will be https://localhost:3000
+
+/***** React JS with Redux JS *****/
+
+npm i redux
+npm i react-redux
+npm i redux-thunk
+
+Note: For installation of redux persist library
+npm i redux-persist
+
+IMPORTANT NOTE: If ypu want to uninstall any package then write
+npm uninstall <package_name>
+Example:
+npm uninstall firebase

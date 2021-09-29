@@ -1,0 +1,25 @@
+/***** How to deploy React JS App in Firebase *****/
+
+Note : Important commands line...!
+
+1 : npm run build
+
+2 : firebase init
+
+3 : Y
+
+4 : Select Hosting
+
+5 : Use an existing project
+
+6 : Select project
+
+7 : build
+
+8 : Y
+
+9 : N
+
+10 : N
+
+11 : firebase deploy

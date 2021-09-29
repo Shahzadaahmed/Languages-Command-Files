@@ -1,0 +1,35 @@
+| ***** GIT Hosting step by step ***** |
+
+Step # 01 :- git init
+
+Step # 02 :- git status
+
+Step # 03 :- git add -A
+
+Step # 04 :- git status
+
+Step # 05 :- git commit -m "Relavant Comment"
+
+Step # 06 :- git remote add origin (then press ctrl + v)
+
+Step # 07 :- git push -u origin master
+
+| ***** Hosting completed ***** |
+
+Note : If you want to update your github repository then use these commands.
+
+Step # 01 :- git status
+
+Step # 02 :- git add . ( Note : git add space dot. )
+
+Step # 03 :- git commit -m "relevant comment"
+
+Step # 06 :- git push origin master/brance-name
+
+Note: If you want to take pull of any repo for the very first time...!
+
+Step # 01 :- git clone repourl
+Example: git clone https://github.com/Shahzadaahmed/React-Native-Basics
+
+Note: Agr ap kisi repo m kam kr rahy ho or apki kisi partner ne changes ki hen or apne pull lena hy then:
+git pull origin master/brance-name

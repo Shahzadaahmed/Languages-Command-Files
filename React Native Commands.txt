@@ -1,0 +1,81 @@
+|***** React Native Important Commands *****|
+
+1: For creating react native project in your system:
+npx react-native init ProjectName
+npx react-native init ProjectName --version 0.64.2
+
+2: To check how many devices are connected with your system:
+adb devices
+
+3: For cache clean:
+npm cache clean --force
+
+4: For start react native app:
+npx react-native run-android
+
+5: For installation of firebase:
+npm install @react-native-firebase/app
+npm install @react-native-firebase/auth
+npm install @react-native-firebase/firestore
+npm install @react-native-firebase/storage
+
+6: For installation of Redux:
+npm i redux
+npm i react-redux
+npm i redux-thunk
+
+7: To open console for React Native:
+Ctrl + m and click debug.
+
+8: For installation of React Native Developer Tools
+
+1: npm i react-devtools
+2: And then add this in the package.json file inside the end of scripts object.
+"devtools": "react-devtools"
+3: npm run devtools
+
+9: For installation of React Native Radio Buttons package.
+npm i react-native-simple-radio-button
+
+10: For installation of React Native Async Storage.
+npm i @react-native-async-storage/async-storage
+
+11: For installation of redux persist library
+npm i redux-persist
+
+|***** React Native Navigation *****|
+
+npm install @react-navigation/native
+npm install react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view
+
+1 : For Stack Navigation...!
+
+npm install @react-navigation/stack
+
+2 : For Botton Tabs Navigation...!
+
+npm install @react-navigation/bottom-tabs
+
+3 : For Drawer Navigation...!
+
+npm install @react-navigation/drawer
+
+Note: Libraries...!
+
+Note: For Install NativeBase:
+npm install native-base
+
+Note: Ant Design for React Native
+npm i @ant-design/react-native
+
+|***** Most Important Commands *****|
+
+npm i react-native-image-crop-picker
+npm i react-native-vector-icons
+npm install react-native-image-modal
+
+Note: For Installation of linear gradient in react native...!
+npm install react-native-linear-gradient --save
+
+Note: For Installation of animation effect in react native...!
+npm install react-native-animatable

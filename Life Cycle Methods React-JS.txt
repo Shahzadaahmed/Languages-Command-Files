@@ -1,0 +1,48 @@
+|***** React-JS Life Cycle Events *****|
+
+Note: The three phases are: Mounting, Updating, and Unmounting.
+
+| "MOUNTING" |
+React has four built-in methods that gets called, in this order, when mounting a component:
+
+1: constructor()
+Note: The constructor() method is called before anything else, when the component is initiated, and it is the natural place to set up theinitial state and 
+other initial values. The constructor() method is called with the props, as arguments, and you should always start by calling the super(props) before anything else.
+
+2: getDerivedStateFromProps()
+Note: The getDerivedStateFromProps() method is called right before rendering the element(s) in the DOM.
+It takes state as an argument, and returns an object with changes to the state.
+
+3: render()
+Note: The render() method is required and will always be called, the others are optional and will be called if you define them.
+
+4: componentDidMount()
+Note: This method runs when the component rendered successfully.
+
+
+| "UPDATING" |
+The next phase in the lifecycle is when a component is updated.
+A component is updated whenever there is a change in the component's state or props.
+React has five built-in methods that gets called, in this order, when a component is updated:
+
+1: getDerivedStateFromProps()
+Note: It is same as previous. But anything will not update after this.
+
+2: shouldComponentUpdate()
+Note: In the shouldComponentUpdate() method you can return a Boolean value that specifies whether React should continue with the rendering or not.
+The default value is true. If you give the value to false then it will not update anything but it will if you give value to true.
+
+3: render()
+Note: It is same as previous.
+
+4: getSnapshotBeforeUpdate()
+Note: This method will tell you what was the previous state and previous props after the updating.
+
+5: componentDidUpdate()
+Note: The componentDidUpdate method is called after the component is updated in the DOM.
+It can tell you the updates in the DOM.
+
+
+| "UNMOUNTING" |
+1: componentWillUnmount()
+Note: The componentWillUnmount method is called when the component is about to be removed from the DOM.

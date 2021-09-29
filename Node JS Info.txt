@@ -1,0 +1,60 @@
+Q: What is Node JS ?
+
+REMEMBER:
+Node JS is not a language, not a library, not a framework.
+
+A:
+1: It is a javascript runtime environment jiko banaya gaya tha Chrome's V8 javascript engine m.
+
+2: Node JS ak environment hy jo server pr run hota hy or us environment me javascript chalti hy, Or Node JS jo engine use krta hy Chrome ka V8 Enhine hy.
+And chrome's V8 Engine is much better than others browsers engine.
+
+Note:
+Yaad rakhen computer hamare code ko nahi smjhta hm jis language pr bhi kam kr rahy hen computer nahi samajhta.
+Computer smjhta hy binary digits.
+Binary digits is nothing but the combination of 0 and 1.
+
+Note:
+Her aek browser m hmare pas aek engine hota hy jisko hm bolte hen javascript engine jo hamare code ko convert kr deta hy into machine understandable code.
+Ta k hamare system/machine ko samajh aye k hmne likha kia hy or wo uska response kre. To yeh kam hota y aapke javascript engine ka.
+
+So in google chrome we have V8 engine.
+
+Q: When to use Node JS?
+A:
+1: Data streaming applications.
+2: Real time chat applications.
+
+Note: If you want to see all properties and methods of Node-JS then first write this command
+node
+then click tab button two times.
+
+Note: If you want to see the properties and methods of fileSystem (fs) then write these commands:
+node
+fs
+
+// Buffer defination:
+// Node JS includes additional data type called buffer, (Which is not available in browser's javascript).
+// Buffer is mainly used to store binary data, while reading from a file.
+
+
+
+
+
+|***** Some important Node JS methods (Synchronous methods) *****|
+.writeFileSync() : To create file or add/update text on it.
+.appendFileSync() : To add some additional text in the file.
+.readFileSync() : To read the data of the file. Note: It will show you data in buffer type.
+.renameSync() : To rename the file.
+.mkdirSync() : To create a folder.
+.unlinkSync() : To delete a file.
+
+|***** Some important Node JS methods (Asynchronous methods) *****|
+
+Most Important NOTE:
+We pass them a function as a argument - a callback - that gets called when that task completes.
+The callback has an argument that tells you whether the operation completed successfully.
+
+.writeFile() : To create file or add/update text on it.
+.appendFile() : To add some additional text in the file.
+.readFile() : To read the data of the file. Note: It will show you data in buffer type.
