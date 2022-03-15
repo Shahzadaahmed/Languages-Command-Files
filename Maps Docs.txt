@@ -1,0 +1,35 @@
+|***** React Native Maps API Integration *****|
+
+Note: Step by step process:
+
+1: First we need to install react native maps library by using this command.
+npm install react-native-maps --legacy-peer-deps
+
+2: Then add the following code in android / app / build.gradle.
+dependencies {
+   ...
+   implementation(project(':react-native-maps')){
+       exclude group: 'com.google.android.gms', module: 'play-services-base'
+       exclude group: 'com.google.android.gms', module: 'play-services-maps'
+   }
+   implementation 'com.google.android.gms:play-services-base:17.2.1'
+   implementation 'com.google.android.gms:play-services-maps:17.0.0'
+}
+
+3: Use this api key as a google api key.
+AIzaSyDxvdSCYO_8iOTYg-y_h9yDXERR0MwawdU
+Note: This api key belongs to shahzada.ahmed1996@gmail.com
+
+4: Then add the following code in android / app / src / main / AndroidManifest.xml
+<meta-data
+android:name="com.google.android.geo.API_KEY"
+android:value="AIzaSyDxvdSCYO_8iOTYg-y_h9yDXERR0MwawdU"/>
+<!-- You will also only need to add this uses-library tag -->
+<uses-library android:name="org.apache.http.legacy" android:required="false"/>
+
+Note: We also have to install these few libraries as well...!
+npm i react-native-geolocation-service
+npm i react-native-geocoder
+
+Note: For google search places input:
+npm i react-native-google-places-autocomplete
