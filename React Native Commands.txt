@@ -2,7 +2,6 @@
 
 1: For creating react native project in your system:
 npx react-native init ProjectName
-npx react-native init ProjectName --version 0.64.2
 
 2: To check how many devices are connected with your system:
 adb devices
