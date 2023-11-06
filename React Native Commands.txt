@@ -12,6 +12,8 @@ npm cache clean --force
 4: For start react native app:
 npx react-native run-android
 
+npx react-native run-android --port 8088 --deviceId 067682515B103837
+
 5: For installation of firebase:
 npm install @react-native-firebase/app
 npm install @react-native-firebase/auth
